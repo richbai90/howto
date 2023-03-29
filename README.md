@@ -17,32 +17,32 @@ cargo install howtoshell
 ## Usage
 
 ```sh
-howto query "unpack a tar.gz file"
+howtoshell query "unpack a tar.gz file"
 ```
 
 ## Advanced Usage
 
-The `howto` command has two subcommands, `query` and `auth`. The `auth` subcommand has two additional subcommands, `login` and `logout`.
+The `howtoshell` command has two subcommands, `query` and `auth`. The `auth` subcommand has two additional subcommands, `login` and `logout`.
 
 
 ### Log in to the ChatGPT API
 The `login` subcommand is used to log in to the ChatGPT API and only needs to be run once.
 ```bash
-$ howto auth login
+$ howtoshell auth login
 ```
 
 ### Log out of the ChatGPT API
 The `logout` subcommand is used to log out of the ChatGPT API and clear the API key from the local machine.
 
 ```bash
-$ howto auth logout
+$ howtoshell auth logout
 ```
 
 ### Query the ChatGPT API
 The `query` subcommand is used to get directions on how to do something in the terminal. The query takes a single argument, which can be a word or a phrase. 
 
 ```bash
-$ howto query "unpack a tar.gz file"
+$ howtoshell query "unpack a tar.gz file"
 ```
 
 Internally, the query is prefixed with the phrase `Provide a command to do the following in a terminal:` to limit the context of the query to commands in the terminal.
@@ -53,10 +53,13 @@ The response from the ChatGPT API will be printed to the terminal.
 After installing the `howto` command, you can add an alias to your shell's configuration file to make it easier to use. For example, if you use `bash`, you can add the following to your `~/.bashrc` file:
 
 ```bash
-alias howto="howto query"
+alias howto="howtoshell query"
 ```
+Then you can run the command like this (in a new terminal session):
 
-Just make sure that you have logged in to the ChatGPT API before adding the alias.
+```bash
+$ howto "unpack a tar.gz file"
+```
 
 ---
 
