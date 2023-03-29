@@ -7,7 +7,7 @@ description = "Get directions for how to do anything in the terminal. Powered by
 repository = "https://github.com/richbai90/howto"
 license = "MIT"
 readme = "README.md"
-keywords = ["howto", "how", "terminal", "cli", "command line", "command line interface", "ai", "gpt", "openai", "open"]
+keywords = ["howto", "how", "terminal", "cli", "command", "line", "interface", "ai", "gpt", "openai", "open"]
 about = "Lookup how to do something in the terminal with a single command"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
