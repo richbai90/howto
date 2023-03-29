@@ -1,10 +1,13 @@
 [package]
-name = "howto"
-version = "0.1.0"
-edition = "2021"
-about = "Lookup how to do something in the terminal with a single command"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+version = "1.0.0"
+authors = ["Rich Baird <rich.baird@utah.edu>"]
+license = "MIT"
+description = "Get directions for how to do anything in the terminal. Powered by ChatGPT. Like TLDR, but smarter."
+readme = "README.md"
+homepage = "https://github.com/richbai90/howto"
+repository = "https://github.com/richbai90/howto"
+keywords = ["cli", "ai", "gpt", "help"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.2.0", features = ["derive"] }
