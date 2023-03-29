@@ -61,6 +61,9 @@ Then you can run the command like this (in a new terminal session):
 $ howto "unpack a tar.gz file"
 ```
 
+## Getting an API key
+For the `howtoshell` command to work, you need to get an API key for the [OpeanAI API](https://platform.openai.com/). Once you've signed up for an account, you can create an API key by going to the [API Keys](https://platform.openai.com/account/api-keys) page and generating a new API. Currently the API key comes with $18.00 of free credits, which should be enough to run the `howtoshell` command for a while. After the free credits are used up, the cost is 	$0.002 / 1K tokens. For more information on tokens and how to count them, see this [OpenAI API article](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them).
+
 ---
 
 ## Author
