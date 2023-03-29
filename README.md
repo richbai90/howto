@@ -11,7 +11,7 @@
 ## Install
 
 ```sh
-cargo install howto
+cargo install howtoshell
 ```
 
 ## Usage
