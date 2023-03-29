@@ -1,6 +1,6 @@
 [package]
-name = "howto"
-version = "1.0.0"
+name = "howtoshell"
+version = "1.0.1"
 edition = "2021"
 authors = ["Rich Baird <rich.baird@utah.edu>"]
 description = "Get directions for how to do anything in the terminal. Powered by ChatGPT. Like TLDR, but smarter."
